@@ -117,7 +117,7 @@
    40 [0 1]  ; down
    })
 
-(defn start []
+(defn ^:export start []
   (game-update-loop)
   (.addEventListener js/document.body "keydown"
                      (fn [e]

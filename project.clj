@@ -4,7 +4,7 @@
                  [org.clojure/clojurescript "1.7.228"]
                  [figwheel "0.5.0-6"]
                  [reagent "0.6.0-alpha"]]
-  :plugins [[lein-cljsbuild "1.1.0"]
+  :plugins [[lein-cljsbuild "1.1.2"]
             [lein-figwheel "0.5.0-6"]
             [cider/cider-nrepl "0.10.2"]]
 
